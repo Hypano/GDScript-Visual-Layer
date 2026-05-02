@@ -1,0 +1,614 @@
+{
+	"settings": {
+		"auto_arrange_new_views": true,
+		"show_variables": true
+	},
+	"version": 2,
+	"views": {
+		"func___enter_tree": {
+			"connections": [
+				{
+					"from_node": "expr__value_call__assign__assign_7_0_main_view__p1__DockScene_new____p0__DockScene",
+					"from_port": 0,
+					"to_node": "value_call__assign__assign_7_0_main_view__p1__DockScene_new__",
+					"to_port": 0
+				},
+				{
+					"from_node": "value_call__assign__assign_7_0_main_view__p1__DockScene_new__",
+					"from_port": 0,
+					"to_node": "assign__assign_7_0_main_view",
+					"to_port": 1
+				},
+				{
+					"from_node": "assign__assign_7_0_main_view",
+					"from_port": 0,
+					"to_node": "set__set_8_1_main_view_editor_interface",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_8_1_main_view_editor_interface",
+					"to_port": 1
+				},
+				{
+					"from_node": "value_call__set__set_8_1_main_view_editor_interface__p2__get_editor_interface__",
+					"from_port": 0,
+					"to_node": "set__set_8_1_main_view_editor_interface",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_8_1_main_view_editor_interface",
+					"from_port": 0,
+					"to_node": "set__set_9_2_main_view_name",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_9_2_main_view_name",
+					"to_port": 1
+				},
+				{
+					"from_node": "literal__set__set_9_2_main_view_name__p2___GDScript_Visual_Layer_",
+					"from_port": 0,
+					"to_node": "set__set_9_2_main_view_name",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_9_2_main_view_name",
+					"from_port": 0,
+					"to_node": "set__set_10_3_main_view_visible",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_10_3_main_view_visible",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__set__set_10_3_main_view_visible__p2__false",
+					"from_port": 0,
+					"to_node": "set__set_10_3_main_view_visible",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_10_3_main_view_visible",
+					"from_port": 0,
+					"to_node": "set__set_11_4_main_view_size_flags_horizontal",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_11_4_main_view_size_flags_horizontal",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__set__set_11_4_main_view_size_flags_horizontal__p2__Control_SIZE_EXPAND_FILL",
+					"from_port": 0,
+					"to_node": "set__set_11_4_main_view_size_flags_horizontal",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_11_4_main_view_size_flags_horizontal",
+					"from_port": 0,
+					"to_node": "set__set_12_5_main_view_size_flags_vertical",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_12_5_main_view_size_flags_vertical",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__set__set_12_5_main_view_size_flags_vertical__p2__Control_SIZE_EXPAND_FILL",
+					"from_port": 0,
+					"to_node": "set__set_12_5_main_view_size_flags_vertical",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_12_5_main_view_size_flags_vertical",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset",
+					"to_port": 2
+				},
+				{
+					"from_node": "method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset",
+					"from_port": 0,
+					"to_node": "assign__assign_15_7_main_screen",
+					"to_port": 0
+				},
+				{
+					"from_node": "expr__assign__assign_15_7_main_screen__p1__get_editor_interface___get_editor_main_screen__",
+					"from_port": 0,
+					"to_node": "assign__assign_15_7_main_screen",
+					"to_port": 1
+				},
+				{
+					"from_node": "assign__assign_15_7_main_screen",
+					"from_port": 0,
+					"to_node": "method__Control__add_child__method_16_8_main_screen_add_child",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_screen",
+					"from_port": 0,
+					"to_node": "method__Control__add_child__method_16_8_main_screen_add_child",
+					"to_port": 1
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "method__Control__add_child__method_16_8_main_screen_add_child",
+					"to_port": 2
+				},
+				{
+					"from_node": "method__Control__add_child__method_16_8_main_screen_add_child",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset",
+					"to_port": 2
+				},
+				{
+					"from_node": "method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset",
+					"from_port": 0,
+					"to_node": "call___fit_main_view__call_18_10__fit_main_view",
+					"to_port": 0
+				},
+				{
+					"from_node": "expr__value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view___p0__not_main_screen_resized",
+					"from_port": 0,
+					"to_node": "value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view_",
+					"to_port": 0
+				},
+				{
+					"from_node": "expr__value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view___p1___fit_main_view",
+					"from_port": 0,
+					"to_node": "value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view_",
+					"to_port": 1
+				},
+				{
+					"from_node": "value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view_",
+					"from_port": 0,
+					"to_node": "branch__branch_19_11",
+					"to_port": 1
+				},
+				{
+					"from_node": "call___fit_main_view__call_18_10__fit_main_view",
+					"from_port": 0,
+					"to_node": "branch__branch_19_11",
+					"to_port": 0
+				},
+				{
+					"from_node": "expr__method__Control__connect__method_20_0_main_screen_resized_connect__p1__main_screen_resized",
+					"from_port": 0,
+					"to_node": "method__Control__connect__method_20_0_main_screen_resized_connect",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__method__Control__connect__method_20_0_main_screen_resized_connect__p2___fit_main_view",
+					"from_port": 0,
+					"to_node": "method__Control__connect__method_20_0_main_screen_resized_connect",
+					"to_port": 2
+				},
+				{
+					"from_node": "branch__branch_19_11",
+					"from_port": 0,
+					"to_node": "method__Control__connect__method_20_0_main_screen_resized_connect",
+					"to_port": 0
+				},
+				{
+					"from_node": "entry___enter_tree",
+					"from_port": 0,
+					"to_node": "assign__assign_7_0_main_view",
+					"to_port": 0
+				}
+			],
+			"groups": [],
+			"nodes": {
+				"assign__assign_15_7_main_screen": {
+					"x": 3060.0,
+					"y": 1920.0
+				},
+				"assign__assign_7_0_main_view": {
+					"x": 760.0,
+					"y": 300.0
+				},
+				"branch__branch_19_11": {
+					"x": 4560.0,
+					"y": 2980.0
+				},
+				"call___fit_main_view__call_18_10__fit_main_view": {
+					"x": 4200.0,
+					"y": 2840.0
+				},
+				"entry___enter_tree": {
+					"x": 40.0,
+					"y": 120.0
+				},
+				"expr__assign__assign_15_7_main_screen__p1__get_editor_interface___get_editor_main_screen__": {
+					"x": 2740.0,
+					"y": 1980.0
+				},
+				"expr__method__Control__connect__method_20_0_main_screen_resized_connect__p1__main_screen_resized": {
+					"x": 4520.0,
+					"y": 3480.0
+				},
+				"expr__method__Control__connect__method_20_0_main_screen_resized_connect__p2___fit_main_view": {
+					"x": 4520.0,
+					"y": 3660.0
+				},
+				"expr__method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT": {
+					"x": 2220.0,
+					"y": 1580.0
+				},
+				"expr__method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT": {
+					"x": 3420.0,
+					"y": 2740.0
+				},
+				"expr__set__set_10_3_main_view_visible__p2__false": {
+					"x": 1400.0,
+					"y": 500.0
+				},
+				"expr__set__set_11_4_main_view_size_flags_horizontal__p2__Control_SIZE_EXPAND_FILL": {
+					"x": 1620.0,
+					"y": 700.0
+				},
+				"expr__set__set_12_5_main_view_size_flags_vertical__p2__Control_SIZE_EXPAND_FILL": {
+					"x": 1800.0,
+					"y": 1220.0
+				},
+				"expr__value_call__assign__assign_7_0_main_view__p1__DockScene_new____p0__DockScene": {
+					"x": 40.0,
+					"y": 300.0
+				},
+				"expr__value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view___p0__not_main_screen_resized": {
+					"x": 3640.0,
+					"y": 3140.0
+				},
+				"expr__value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view___p1___fit_main_view": {
+					"x": 3640.0,
+					"y": 3240.0
+				},
+				"literal__set__set_9_2_main_view_name__p2___GDScript_Visual_Layer_": {
+					"x": 40.0,
+					"y": 860.0
+				},
+				"method__Control__add_child__method_16_8_main_screen_add_child": {
+					"x": 3380.0,
+					"y": 2180.0
+				},
+				"method__Control__connect__method_20_0_main_screen_resized_connect": {
+					"x": 5040.0,
+					"y": 3480.0
+				},
+				"method__Control__set_anchors_and_offsets_preset__method_13_6_main_view_set_anchors_and_offsets_preset": {
+					"x": 2580.0,
+					"y": 1440.0
+				},
+				"method__Control__set_anchors_and_offsets_preset__method_17_9_main_view_set_anchors_and_offsets_preset": {
+					"x": 3740.0,
+					"y": 2560.0
+				},
+				"set__set_10_3_main_view_visible": {
+					"x": 1680.0,
+					"y": 300.0
+				},
+				"set__set_11_4_main_view_size_flags_horizontal": {
+					"x": 2040.0,
+					"y": 540.0
+				},
+				"set__set_12_5_main_view_size_flags_vertical": {
+					"x": 2200.0,
+					"y": 1060.0
+				},
+				"set__set_8_1_main_view_editor_interface": {
+					"x": 1060.0,
+					"y": 300.0
+				},
+				"set__set_9_2_main_view_name": {
+					"x": 1360.0,
+					"y": 300.0
+				},
+				"value_call__assign__assign_7_0_main_view__p1__DockScene_new__": {
+					"x": 400.0,
+					"y": 300.0
+				},
+				"value_call__branch__branch_19_11__p1__not_main_screen_resized_is_connected__fit_main_view_": {
+					"x": 4000.0,
+					"y": 3140.0
+				},
+				"value_call__set__set_8_1_main_view_editor_interface__p2__get_editor_interface__": {
+					"x": 40.0,
+					"y": 680.0
+				},
+				"var__main_screen": {
+					"x": 3060.0,
+					"y": 2180.0
+				},
+				"var__main_view": {
+					"x": 40.0,
+					"y": 540.0
+				}
+			},
+			"scroll": {
+				"x": -344.214782714844,
+				"y": -155.014587402344
+			},
+			"zoom": 0.232567951083183
+		},
+		"func___fit_main_view": {
+			"connections": [
+				{
+					"from_node": "expr__branch__branch_38_0__p1__main_view____null",
+					"from_port": 0,
+					"to_node": "branch__branch_38_0",
+					"to_port": 1
+				},
+				{
+					"from_node": "branch__branch_38_0",
+					"from_port": 0,
+					"to_node": "return__return_39_0",
+					"to_port": 0
+				},
+				{
+					"from_node": "branch__branch_38_0",
+					"from_port": 0,
+					"to_node": "local_assign__local_40_1_parent",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "value_call__local_assign__local_40_1_parent__p1__main_view_get_parent__",
+					"to_port": 0
+				},
+				{
+					"from_node": "value_call__local_assign__local_40_1_parent__p1__main_view_get_parent__",
+					"from_port": 0,
+					"to_node": "local_assign__local_40_1_parent",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__branch__branch_41_2__p1__parent_is_Control",
+					"from_port": 0,
+					"to_node": "branch__branch_41_2",
+					"to_port": 1
+				},
+				{
+					"from_node": "local_assign__local_40_1_parent",
+					"from_port": 0,
+					"to_node": "branch__branch_41_2",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_42_0_main_view_position",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__set__set_42_0_main_view_position__p2__Vector2_ZERO",
+					"from_port": 0,
+					"to_node": "set__set_42_0_main_view_position",
+					"to_port": 2
+				},
+				{
+					"from_node": "set__set_42_0_main_view_position",
+					"from_port": 0,
+					"to_node": "set__set_43_1_main_view_size",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "set__set_43_1_main_view_size",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__set__set_43_1_main_view_size__p2___parent_as_Control__size",
+					"from_port": 0,
+					"to_node": "set__set_43_1_main_view_size",
+					"to_port": 2
+				},
+				{
+					"from_node": "branch__branch_41_2",
+					"from_port": 0,
+					"to_node": "set__set_42_0_main_view_position",
+					"to_port": 0
+				},
+				{
+					"from_node": "branch__branch_41_2",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset",
+					"to_port": 0
+				},
+				{
+					"from_node": "var__main_view",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset",
+					"to_port": 1
+				},
+				{
+					"from_node": "expr__method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT",
+					"from_port": 0,
+					"to_node": "method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset",
+					"to_port": 2
+				},
+				{
+					"from_node": "entry___fit_main_view",
+					"from_port": 0,
+					"to_node": "branch__branch_38_0",
+					"to_port": 0
+				}
+			],
+			"groups": [],
+			"nodes": {
+				"branch__branch_38_0": {
+					"x": 420.0,
+					"y": 120.0
+				},
+				"branch__branch_41_2": {
+					"x": 1120.0,
+					"y": 500.0
+				},
+				"entry___fit_main_view": {
+					"x": 40.0,
+					"y": 120.0
+				},
+				"expr__branch__branch_38_0__p1__main_view____null": {
+					"x": 40.0,
+					"y": 300.0
+				},
+				"expr__branch__branch_41_2__p1__parent_is_Control": {
+					"x": 40.0,
+					"y": 680.0
+				},
+				"expr__method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset__p2__Control_PRESET_FULL_RECT": {
+					"x": 40.0,
+					"y": 1240.0
+				},
+				"expr__set__set_42_0_main_view_position__p2__Vector2_ZERO": {
+					"x": 40.0,
+					"y": 860.0
+				},
+				"expr__set__set_43_1_main_view_size__p2___parent_as_Control__size": {
+					"x": 40.0,
+					"y": 1060.0
+				},
+				"local_assign__local_40_1_parent": {
+					"x": 800.0,
+					"y": 500.0
+				},
+				"method__Control__set_anchors_and_offsets_preset__method_44_3_main_view_set_anchors_and_offsets_preset": {
+					"x": 1500.0,
+					"y": 760.0
+				},
+				"return__return_39_0": {
+					"x": 800.0,
+					"y": 120.0
+				},
+				"set__set_42_0_main_view_position": {
+					"x": 1500.0,
+					"y": 500.0
+				},
+				"set__set_43_1_main_view_size": {
+					"x": 1960.0,
+					"y": 500.0
+				},
+				"value_call__local_assign__local_40_1_parent__p1__main_view_get_parent__": {
+					"x": 420.0,
+					"y": 500.0
+				},
+				"var__main_view": {
+					"x": 40.0,
+					"y": 500.0
+				}
+			},
+			"scroll": {
+				"x": -310.550109863281,
+				"y": -169.363433837891
+			},
+			"zoom": 0.453209221363068
+		},
+		"overview": {
+			"connections": [],
+			"groups": [],
+			"nodes": {
+				"@GraphNode@23660": {
+					"x": -240.0,
+					"y": 40.0
+				},
+				"@GraphNode@23664": {
+					"x": -240.0,
+					"y": 140.0
+				},
+				"func___apply_changes": {
+					"x": 60.0,
+					"y": 1580.0
+				},
+				"func___enter_tree": {
+					"x": 60.0,
+					"y": 240.0
+				},
+				"func___exit_tree": {
+					"x": 60.0,
+					"y": 1420.0
+				},
+				"func___fit_main_view": {
+					"x": 340.0,
+					"y": 360.0
+				},
+				"func___flush_layout": {
+					"x": 340.0,
+					"y": 1580.0
+				},
+				"func___get_plugin_icon": {
+					"x": 60.0,
+					"y": 1000.0
+				},
+				"func___get_plugin_name": {
+					"x": 60.0,
+					"y": 840.0
+				},
+				"func___has_main_screen": {
+					"x": 60.0,
+					"y": 680.0
+				},
+				"func___make_visible": {
+					"x": 60.0,
+					"y": 420.0
+				},
+				"func___resource_saved": {
+					"x": 60.0,
+					"y": 1920.0
+				},
+				"func___save_external_data": {
+					"x": 60.0,
+					"y": 1740.0
+				},
+				"var__main_screen": {
+					"x": -240.0,
+					"y": 140.0
+				},
+				"var__main_view": {
+					"x": -240.0,
+					"y": 40.0
+				}
+			},
+			"scroll": {
+				"x": -427.610382080078,
+				"y": -75.7611694335938
+			},
+			"scroll_x": 0.0,
+			"scroll_y": 0.0,
+			"zoom": 0.318630665540695
+		}
+	}
+}

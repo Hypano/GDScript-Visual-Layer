@@ -1,0 +1,249 @@
+{
+	"settings": {
+		"auto_arrange_new_views": true,
+		"show_variables": true
+	},
+	"version": 10,
+	"views": {
+		"overview": {
+			"connections": [],
+			"nodes": {
+				"func___add_slot": {
+					"x": 420.0,
+					"y": 5480.0
+				},
+				"func___builtin_return_type": {
+					"x": 60.0,
+					"y": 7600.0
+				},
+				"func___finish_node": {
+					"x": 60.0,
+					"y": 6700.0
+				},
+				"func___short_signature": {
+					"x": 60.0,
+					"y": 7140.0
+				},
+				"func___short_text": {
+					"x": 60.0,
+					"y": 7300.0
+				},
+				"func___variable_color": {
+					"x": 60.0,
+					"y": 6840.0
+				},
+				"func__function_signature": {
+					"x": 60.0,
+					"y": 7000.0
+				},
+				"func__make_assignment_node": {
+					"x": 60.0,
+					"y": 5340.0
+				},
+				"func__make_branch_node": {
+					"x": 60.0,
+					"y": 5480.0
+				},
+				"func__make_builtin_call_node": {
+					"x": 60.0,
+					"y": 5940.0
+				},
+				"func__make_entry_node": {
+					"x": 60.0,
+					"y": 4580.0
+				},
+				"func__make_expression_node": {
+					"x": 60.0,
+					"y": 6100.0
+				},
+				"func__make_function_node": {
+					"x": 60.0,
+					"y": 4740.0
+				},
+				"func__make_literal_node": {
+					"x": 60.0,
+					"y": 6240.0
+				},
+				"func__make_local_assign_node": {
+					"x": 60.0,
+					"y": 5040.0
+				},
+				"func__make_math_node": {
+					"x": 60.0,
+					"y": 6400.0
+				},
+				"func__make_method_node": {
+					"x": 60.0,
+					"y": 5780.0
+				},
+				"func__make_script_call_node": {
+					"x": 60.0,
+					"y": 5640.0
+				},
+				"func__make_set_property_node": {
+					"x": 60.0,
+					"y": 5180.0
+				},
+				"func__make_statement_node": {
+					"x": 60.0,
+					"y": 6540.0
+				},
+				"func__make_variable_node": {
+					"x": 60.0,
+					"y": 4880.0
+				},
+				"func__math_operator": {
+					"x": 60.0,
+					"y": 8360.0
+				},
+				"func__math_symbol": {
+					"x": 60.0,
+					"y": 8200.0
+				},
+				"func__port_color_for_type_name": {
+					"x": 60.0,
+					"y": 7900.0
+				},
+				"func__port_type_for_type_name": {
+					"x": 60.0,
+					"y": 7760.0
+				},
+				"func__return_type_from_method": {
+					"x": 60.0,
+					"y": 7440.0
+				},
+				"func__sanitize_id": {
+					"x": 60.0,
+					"y": 8500.0
+				},
+				"func__variant_type_to_name": {
+					"x": 60.0,
+					"y": 8060.0
+				},
+				"var__COLOR_BOOL": {
+					"x": 60.0,
+					"y": 1720.0
+				},
+				"var__COLOR_EXEC": {
+					"x": 60.0,
+					"y": 1260.0
+				},
+				"var__COLOR_NUMBER": {
+					"x": 60.0,
+					"y": 1860.0
+				},
+				"var__COLOR_OBJECT": {
+					"x": 60.0,
+					"y": 1560.0
+				},
+				"var__COLOR_STRING": {
+					"x": 60.0,
+					"y": 2020.0
+				},
+				"var__COLOR_VALUE": {
+					"x": 60.0,
+					"y": 1400.0
+				},
+				"var__COLOR_VECTOR": {
+					"x": 60.0,
+					"y": 2160.0
+				},
+				"var__NODE_COLOR_BRANCH": {
+					"x": 60.0,
+					"y": 4120.0
+				},
+				"var__NODE_COLOR_BUILTIN": {
+					"x": 60.0,
+					"y": 3680.0
+				},
+				"var__NODE_COLOR_ENTRY": {
+					"x": 60.0,
+					"y": 2320.0
+				},
+				"var__NODE_COLOR_EXPORT": {
+					"x": 60.0,
+					"y": 2920.0
+				},
+				"var__NODE_COLOR_FUNCTION": {
+					"x": 60.0,
+					"y": 2460.0
+				},
+				"var__NODE_COLOR_LIFECYCLE": {
+					"x": 60.0,
+					"y": 2620.0
+				},
+				"var__NODE_COLOR_LITERAL": {
+					"x": 60.0,
+					"y": 4280.0
+				},
+				"var__NODE_COLOR_LOCAL": {
+					"x": 60.0,
+					"y": 3220.0
+				},
+				"var__NODE_COLOR_MATH": {
+					"x": 60.0,
+					"y": 3980.0
+				},
+				"var__NODE_COLOR_METHOD": {
+					"x": 60.0,
+					"y": 3520.0
+				},
+				"var__NODE_COLOR_ONREADY": {
+					"x": 60.0,
+					"y": 3080.0
+				},
+				"var__NODE_COLOR_PROPERTY": {
+					"x": 60.0,
+					"y": 3820.0
+				},
+				"var__NODE_COLOR_SCRIPT_CALL": {
+					"x": 60.0,
+					"y": 3380.0
+				},
+				"var__NODE_COLOR_STATEMENT": {
+					"x": 60.0,
+					"y": 4420.0
+				},
+				"var__NODE_COLOR_VARIABLE": {
+					"x": 60.0,
+					"y": 2760.0
+				},
+				"var__PORT_ANY": {
+					"x": 60.0,
+					"y": 1100.0
+				},
+				"var__PORT_BOOL": {
+					"x": 60.0,
+					"y": 500.0
+				},
+				"var__PORT_EXEC": {
+					"x": 60.0,
+					"y": 60.0
+				},
+				"var__PORT_NUMBER": {
+					"x": 60.0,
+					"y": 660.0
+				},
+				"var__PORT_OBJECT": {
+					"x": 60.0,
+					"y": 360.0
+				},
+				"var__PORT_STRING": {
+					"x": 60.0,
+					"y": 800.0
+				},
+				"var__PORT_VALUE": {
+					"x": 60.0,
+					"y": 200.0
+				},
+				"var__PORT_VECTOR": {
+					"x": 60.0,
+					"y": 960.0
+				}
+			},
+			"scroll_x": 0.0,
+			"scroll_y": 0.0,
+			"zoom": 1.0
+		}
+	}
+}
